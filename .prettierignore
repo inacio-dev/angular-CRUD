@@ -1,0 +1,29 @@
+# Ignore arquivos de build e pastas de dependências
+dist/*
+node_modules/*
+
+# Ignore pacotes gerados
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Ignore arquivos de configuração do Angular e ESLint
+.angular/*
+.eslintrc.js
+.eslintcache
+.prettierignore
+
+# Ignore arquivos específicos de ambiente e sistema
+*.log
+.env
+*.local
+
+# Ignore testes gerados ou temporários
+coverage/*
+tests-output/*
+
+# Ignore pastas temporárias do Angular CLI
+.tmp/*
+.angular/*
+
+.vscode/*
